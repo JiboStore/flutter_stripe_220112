@@ -171,4 +171,6 @@ class _PaymentSheetScreenState extends State<PaymentSheetScreenWithCustomFlow> {
   }
 }
 
-final dynamic emptyControlBuilder = (_, __) => Container();
+// final ControlsWidgetBuilder emptyControlBuilder = (_, __) => Container();
+final ControlsWidgetBuilder emptyControlBuilder =
+    (context, {onStepContinue: null, onStepCancel: null}) => Container();
